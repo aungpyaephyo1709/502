@@ -1,0 +1,7 @@
+1. create  Additional.idl
+2. cmd=> -----/src> idlj -fall Additional.idl
+3. create AdditionalObj.java
+4.create StartServer.java
+5.cmd=> ----/src>  start orbd -ORBInitialPort 1050 
+6.rung configuration /arguments > -ORBInitialPort 1050 -ORBIinitialHost localhost
+
